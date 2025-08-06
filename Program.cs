@@ -1,3 +1,10 @@
-﻿using DesafioPOO.Models;
-
-// TODO: Realizar os testes com as classes Nokia e Iphone
+using DesafioPOO.Models;
+Smartphone nokia = new Nokia("12345", 12345, 12345, 12345);
+Console.WriteLine("Nokia:");
+nokia.Ligar();
+nokia.InstalarAplicativo("Duolingo");
+Console.WriteLine();
+Smartphone iphone = new Iphone("12345", 12345, 12345, 12345);
+Console.WriteLine("Iphone:");
+iphone.ReceberLigacao();
+iphone.InstalarAplicativo("Wild Rift");
